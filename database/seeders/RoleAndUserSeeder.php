@@ -40,6 +40,7 @@ class RoleAndUserSeeder extends Seeder
             ['name' => 'Pembina UKM', 'email' => 'pembina.ukm@pnm.local', 'role' => 'pembina_ukm'],
             ['name' => 'Wadir 3', 'email' => 'wadir3@pnm.local', 'role' => 'wadir3'],
             ['name' => 'Kasubbag', 'email' => 'kasubbag@pnm.local', 'role' => 'kasubbag'],
+            ['name' => 'Admin Organisasi Mahasiswa', 'email' => 'admin.ormawa@pnm.local', 'role' => 'admin_ormawa'],
         ];
 
         foreach ($users as $account) {
